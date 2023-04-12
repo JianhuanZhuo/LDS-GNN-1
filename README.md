@@ -30,6 +30,15 @@ FMA dataset (we used the `small` version) should also be downloaded, please emai
 python setup.py install
 ```
 
+安装
+```bash
+export http_proxy="http://sys-proxy-rd-relay.byted.org:8118"
+export https_proxy="http://sys-proxy-rd-relay.byted.org:8118"
+pip install tensorflow-gpu==1.15
+pip install git+https://github.com/JianhuanZhuo/FAR-HO.git@final_ICML19
+pip install git+https://github.com/tkipf/gcn.git
+```
+
 The scripts contained in `lds.py` should work also without installing the package. 
 
 ## Run
